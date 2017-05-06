@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
+// https://www.hackerrank.com/challenges/java-string-compare
 public class SolutionSortedSet {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);

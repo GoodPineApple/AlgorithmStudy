@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
+// https://www.hackerrank.com/challenges/java-string-compare
 public class SolutionSet {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);

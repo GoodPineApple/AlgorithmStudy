@@ -2,6 +2,7 @@ package subString;
 
 import java.util.Scanner;
 
+// https://www.hackerrank.com/challenges/java-substring
 public class Solution {
 
     public static void main(String[] args) {
