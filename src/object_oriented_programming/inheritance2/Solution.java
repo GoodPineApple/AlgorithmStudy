@@ -1,4 +1,4 @@
-package inheritance2;
+package object_oriented_programming.inheritance2;
 
 // https://www.hackerrank.com/challenges/java-inheritance-2?h_r=next-challenge&h_v=zen
 public class Solution{
