@@ -1,5 +1,6 @@
 package inheritance1;
 
+// https://www.hackerrank.com/challenges/java-inheritance-1
 public class Solution {
 	public static void main(String[] args) {
 		Bird bird = new Bird();
