@@ -1,4 +1,4 @@
-package compareString;
+package strings.compareString;
 
 import java.util.Scanner;
 import java.util.SortedSet;

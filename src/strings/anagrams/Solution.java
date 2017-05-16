@@ -1,9 +1,10 @@
-package anagrams;
+package strings.anagrams;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
+// https://www.hackerrank.com/challenges/java-anagrams
 public class Solution {
 	
 	static boolean isAnagram(String A, String B){

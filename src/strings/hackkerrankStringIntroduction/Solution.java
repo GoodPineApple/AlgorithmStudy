@@ -1,4 +1,4 @@
-package hackkerrankStringIntroduction;
+package strings.hackkerrankStringIntroduction;
 //Given two strings of lowercase English letters,  and , perform the following operations:
 //
 //Sum the lengths of  and .
