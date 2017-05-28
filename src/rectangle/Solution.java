@@ -1,12 +1,13 @@
 package rectangle;
 
-// Á÷»ç°¢ÇüÀÇ 3Á¡ÀÇ ÁÂÇ¥¸¸ ÁÖ¾îÁ³À» ¶§, ³ª¸ÓÁö ÇÑ Á¡À» Ãß·ÐÇÏ¶ó
+// ï¿½ï¿½ï¿½ç°¢ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß·ï¿½ï¿½Ï¶ï¿½
 public class Solution {
 	public static void main(String[] args) {
 		int[][] test = {{1,4},{3,4},{3,10}};
 		
 		
 		int[] result = solution(test);
+		System.out.println("test");
 		System.out.println(result[0] + "," + result[1]);
 	}
 	
