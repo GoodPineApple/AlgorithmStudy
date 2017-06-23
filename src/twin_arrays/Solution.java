@@ -12,6 +12,8 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+
+
 public class Solution {
 
     static int twinArrays(int[] ar1, int[] ar2){
@@ -32,6 +34,7 @@ public class Solution {
         System.out.println(testIndex);
         String newString = testList.toString();
         System.out.println(newString);
+
 
         List testList2 = new ArrayList();
         testList2.add(1);
@@ -56,10 +59,13 @@ public class Solution {
         }
     }
 
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
+
         int[] ar1 = new int[n];
+        
         for(int ar1_i = 0; ar1_i < n; ar1_i++){
             ar1[ar1_i] = in.nextInt();
         }

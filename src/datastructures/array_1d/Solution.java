@@ -1,5 +1,6 @@
 package datastructures.array_1d;
 
+import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 /**
@@ -15,7 +16,6 @@ public class Solution {
         for(int i=0; i<n; i++){
             int_arr[i] = scan.nextInt();
         }
-
         scan.close();
 
         for(int i=0; i<int_arr.length; i++){
