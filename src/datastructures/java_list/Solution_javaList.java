@@ -1,6 +1,7 @@
 package datastructures.java_list;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 /**
@@ -13,18 +14,26 @@ public class Solution_javaList {
         int size = scan.nextInt();
         ArrayList array = new ArrayList();
         for (int i = 0; i < size; i++) {
-            array[i] = scan.nextInt();
+            int temp = scan.nextInt();
+            array.add(temp);
         }
-        while(true){
+        int querySize = scan.nextInt();
+        for (int i = 0; i < querySize ; i++){
             String text = scan.next();
-            if(text=="Insert"){
+            if(text.equals("Insert")){
                 int index = scan.nextInt();
                 int num = scan.nextInt();
-                array.
+                array.add(index,num);
             }
-            if(text=="Delete"){
+            if(text.equals("Delete")){
                 int index = scan.nextInt();
+                array.remove(index);
             }
+        }
+        Iterator it = array.iterator();
+        while(it.hasNext()){
+            Integer i = (Integer)it.next();
+            System.out.print(i + " ");
         }
     }
 }
