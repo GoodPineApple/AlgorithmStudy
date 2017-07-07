@@ -6,10 +6,9 @@ import java.util.Scanner;
  * Created by taemi on 2017-07-07.
  */
 public class SolutionNextline {
-    static Scanner q = new Scanner(System.in);
-
     public static void main(String[] args)
     {
+        Scanner q = new Scanner(System.in);
         System.out.print("n = ");
         int n = q.nextInt();
 
