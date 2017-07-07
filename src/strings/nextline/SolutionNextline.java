@@ -13,8 +13,8 @@ public class SolutionNextline {
 
         int n = q.nextInt();
         int[] a = new int[n];
-        String[] b = new String[n];
 
+        String[] b = new String[n];
         for (int i = 0; i < n; i++)
         {
             System.out.print("Enter student name: ");
