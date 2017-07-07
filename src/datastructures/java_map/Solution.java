@@ -14,25 +14,18 @@ public class Solution {
         int n=in.nextInt();
         in.nextLine();
 
-        HashMap<String,Integer> phoneBook = new HashMap<String,Integer>();
+        HashMap<String,String> phoneBook = new HashMap<String,String>();
         for(int i=0;i<n;i++)
         {
             String name=in.nextLine();
-            int phone=in.nextInt();
+            String phone=in.nextLine();
             phoneBook.put(name, phone);
             in.nextLine();
         }
         while(in.hasNext())
         {
-            String s=in.nextLine();
-
-            int phoneNum = 0;
-            try {
-                phoneNum = phoneBook.get(s);
-                System.out.println(s+"="+phoneNum);
-            } catch (Exception e) {
-                System.out.println("Not found");
-            }
+            String query =in.nextLine().trim();
+            System.out.println(phoneBook.containsKey(query) ? query+"="+phoneBook.get(query) : "Not Found");
         }
     }
 }
