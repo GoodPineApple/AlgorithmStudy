@@ -10,8 +10,8 @@ public class SolutionNextline {
     {
         Scanner q = new Scanner(System.in);
         System.out.print("n = ");
-        int n = q.nextInt();
 
+        int n = q.nextInt();
         int[] a = new int[n];
         String[] b = new String[n];
 
