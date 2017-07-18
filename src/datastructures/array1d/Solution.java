@@ -1,6 +1,5 @@
-package datastructures.array_1d;
+package datastructures.array1d;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 /**
