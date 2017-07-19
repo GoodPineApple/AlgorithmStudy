@@ -1,6 +1,7 @@
 package datastructures.comparator;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
@@ -22,6 +23,9 @@ public class Solution {
         scan.close();
 
         Arrays.sort(player, checker);
+        // Collections.sort 는 왜 안되는거지???
+//        Collections.sort(player, checker);
+
         for(int i = 0; i < player.length; i++){
             System.out.printf("%s %s\n", player[i].name, player[i].score);
         }
