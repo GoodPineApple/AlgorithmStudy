@@ -6,9 +6,9 @@ package datastructures.share.variable;
 public class B {
     public static void main(String[] args) {
         A objectA = new A();
-        System.out.println(objectA.num);
-        objectA.assignNum();
-        objectA.prnNum();
+        String c = objectA.methodC();
+        System.out.println(c);
+        String d = objectA.methodD(c);
+        System.out.println(d);
     }
-
 }
