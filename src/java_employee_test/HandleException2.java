@@ -9,6 +9,7 @@ public class HandleException2 {
 
     public static void main(String[] argv) {
         new HandleException2().test();
+
     }
 
     private void test() {
