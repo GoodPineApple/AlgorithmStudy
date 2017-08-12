@@ -4,15 +4,14 @@ package java_employee_test;
  * Created by taemi on 2017-08-10.
  */
 public class OverrideTest {
-    public static void main() {
-        SuperClass a = new SubClass();
-        a.doh(1);
-//        new OverrideTest().test();
+    public static void main(String[] argv) {
+        float result = (float) new OverrideTest().test();
     }
 
-    private void test() {
+    private float test() {
         SuperClass a = new SubClass();
-        a.doh(1);
+        return a.doh(1);
+
     }
 
     static class SuperClass {

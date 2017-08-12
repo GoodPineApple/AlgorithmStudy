@@ -8,10 +8,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-private class test{
-
-}
-
 public class PrintFile {
 
     public static void main(String[] argv) {

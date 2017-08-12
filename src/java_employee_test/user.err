@@ -1,0 +1,2 @@
+find: '/tmp/CR_0573F.tmp': Permission denied
+find: failed to read file names from file system at or below '/': No such file or directory
