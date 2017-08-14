@@ -11,9 +11,10 @@ import static java.lang.System.in;
 /**
  * Created by taemi on 2017-08-14.
  * https://www.hackerrank.com/challenges/prime-checker?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=15-day-campaign
+ * 소수찾기.
  */
 class Prime {
-    void checkPrime(int... args){
+    void checkPrime(int... args){       // ellipsis 생략.
         String outPut = "";
         for (int arg : args){
             if (isPrime(arg)){
@@ -27,7 +28,7 @@ class Prime {
         System.out.println();
     }
 
-    boolean isPrime(int num){
+    boolean isPrime(int num){       // 소수(1과 자신으로밖에 나눌 수 없는 수) 검사
         if (num < 2){
             return false;
         }
